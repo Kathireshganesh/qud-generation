@@ -1,0 +1,29 @@
+
+# Python environments
+venv/
+eduseg_env/
+__pycache__/
+*.pyc
+
+# Downloaded models and caches
+hf_cache/
+models/
+.cache/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated output files
+output/
+outputs/
+*.log
+
+# IDE files
+.vscode/
+.idea/
